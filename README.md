@@ -9,7 +9,7 @@ The available classes are as follows:
 
 The classes that have associated background colors when the mouse is outside or above a title or a dropdown are the following:
 - .purple-grape
-<span style="background-color: #63768d; height: 100px;"></span>
+<span style="background-color: #63768d; width: 100%; height: 100px;"></span>
 - .grape-purple
 - .burlywood-copper
 - .copper-burlywood
