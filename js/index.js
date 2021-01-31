@@ -21,8 +21,5 @@ document.addEventListener( "DOMContentLoaded", () => {
     });
     document.querySelectorAll( ".disableHover" ).forEach( function( disablehover ){
         let bgcolor = window.getComputedStyle( disablehover, null ).getPropertyValue( "background-color" );
-        disablehover.addEventListener( "mouseover", function(){
-            console.log( disablehover.style.backgroundColor );
-        });
     });
 });
