@@ -78,6 +78,7 @@
 
 .collapsible .purple-grape {
   background-color: #63768d !important;
+  color: white !important;
 }
 
 .collapsible .purple-grape:not(.disableHover):hover {
@@ -86,6 +87,7 @@
 
 .collapsible .grape-purple {
   background-color: #554971 !important;
+  color: white !important;
 }
 
 .collapsible .grape-purple:not(.disableHover):hover {
@@ -94,6 +96,7 @@
 
 .collapsible .burlywood-copper {
   background-color: #dab785 !important;
+  color: white !important;
 }
 
 .collapsible .burlywood-copper:not(.disableHover):hover {
@@ -102,6 +105,7 @@
 
 .collapsible .copper-burlywood {
   background-color: #d5896f !important;
+  color: white !important;
 }
 
 .collapsible .copper-burlywood:not(.disableHover):hover {
@@ -110,6 +114,7 @@
 
 .collapsible .lavender-purple {
   background-color: #70566d !important;
+  color: white !important;
 }
 
 .collapsible .lavender-purple:not(.disableHover):hover {
@@ -118,6 +123,7 @@
 
 .collapsible .purple-lavender {
   background-color: #42273b !important;
+  color: white !important;
 }
 
 .collapsible .purple-lavender:not(.disableHover):hover {
@@ -126,6 +132,7 @@
 
 .collapsible .yonder-coral {
   background-color: #577399 !important;
+  color: white !important;
 }
 
 .collapsible .yonder-coral:not(.disableHover):hover {
@@ -134,6 +141,7 @@
 
 .collapsible .coral-yonder {
   background-color: #495867 !important;
+  color: white !important;
 }
 
 .collapsible .coral-yonder:not(.disableHover):hover {
@@ -142,6 +150,7 @@
 
 .collapsible .gray-eggplant {
   background-color: #726da8 !important;
+  color: white !important;
 }
 
 .collapsible .gray-eggplant:not(.disableHover):hover {
@@ -150,6 +159,7 @@
 
 .collapsible .eggplant-gray {
   background-color: #594157 !important;
+  color: white !important;
 }
 
 .collapsible .eggplant-gray:not(.disableHover):hover {
@@ -158,6 +168,7 @@
 
 .collapsible .ming-black {
   background-color: #2c666e !important;
+  color: white;
 }
 
 .collapsible .ming-black:not(.disableHover):hover {
@@ -166,6 +177,7 @@
 
 .collapsible .black-ming {
   background-color: #07393c !important;
+  color: white;
 }
 
 .collapsible .black-ming:not(.disableHover):hover {
@@ -174,17 +186,21 @@
 
 .collapsible .jasmine-saffron {
   background-color: #f7d488 !important;
+  color: black;
 }
 
 .collapsible .jasmine-saffron:not(.disableHover):hover {
+  color: white;
   background-color: #f9a03f !important;
 }
 
 .collapsible .saffron-jasmine {
   background-color: #f9a03f !important;
+  color: white;
 }
 
 .collapsible .saffron-jasmine:not(.disableHover):hover {
+  color: black;
   background-color: #f7d488 !important;
 }
 
@@ -208,7 +224,7 @@
 
 .collapsible .spanish-tickle {
   background-color: #ffc0be !important;
-  color: black !important;
+  color: white !important;
 }
 
 .collapsible .spanish-tickle:not(.disableHover):hover {
@@ -217,7 +233,7 @@
 
 .collapsible .tickle-spanish {
   background-color: #ff82a9 !important;
-  color: black !important;
+  color: white !important;
 }
 
 .collapsible .tickle-spanish:not(.disableHover):hover {
@@ -325,12 +341,12 @@
 
 .collapsible .usafa-dark:not(.disableHover):hover {
   background-color: #9fc2cc !important;
-  color: black !important;
+  color: white !important;
 }
 
 .collapsible .dark-usafa {
   background-color: #9fc2cc !important;
-  color: black !important;
+  color: white !important;
 }
 
 .collapsible .dark-usafa:not(.disableHover):hover {

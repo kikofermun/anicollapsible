@@ -36,12 +36,14 @@
     /**********/
     .purple-grape{
         background-color: #63768d !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #554971 !important;
         }
     }
     .grape-purple{
         background-color: #554971 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #63768d !important;
         }
@@ -50,12 +52,14 @@
     /**********/
     .burlywood-copper{
         background-color: #dab785 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #d5896f !important;
         }
     }
     .copper-burlywood{
         background-color: #d5896f !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #dab785 !important;
         }
@@ -64,12 +68,14 @@
     /**********/
     .lavender-purple{
         background-color: #70566d !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #42273b !important;
         }
     }
     .purple-lavender{
         background-color: #42273b !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #70566d !important;
         }
@@ -78,12 +84,14 @@
     /**********/
     .yonder-coral{
         background-color: #577399 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #495867 !important;
         }
     }
     .coral-yonder{
         background-color: #495867 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #577399 !important;
         }
@@ -92,12 +100,14 @@
     /**********/
     .gray-eggplant{
         background-color: #726da8 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #594157 !important;
         }
     }
     .eggplant-gray{
         background-color: #594157 !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #726da8 !important;
         }
@@ -106,12 +116,14 @@
     /**********/
     .ming-black{
         background-color: #2c666e !important;
+        color: white;
         &:not(.disableHover):hover{
             background-color: #07393c !important;
         }
     }
     .black-ming{
         background-color: #07393c !important;
+        color: white;
         &:not(.disableHover):hover{
             background-color: #2c666e !important;
         }
@@ -120,13 +132,17 @@
     /**********/
     .jasmine-saffron{
         background-color: #f7d488 !important;
+        color: black;
         &:not(.disableHover):hover{
+            color: white;
             background-color: #f9a03f !important;
         }
     }
     .saffron-jasmine{
         background-color: #f9a03f !important;
+        color: white;
         &:not(.disableHover):hover{
+            color: black;
             background-color: #f7d488 !important;
         }
     }
@@ -150,14 +166,14 @@
     /**********/
     .spanish-tickle{
         background-color: #ffc0be !important;
-        color: black !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #ff82a9 !important;
         }
     }
     .tickle-spanish{
         background-color: #ff82a9 !important;
-        color: black !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #ffc0be !important;
         }
@@ -253,12 +269,12 @@
         color: white !important;
         &:not(.disableHover):hover{
             background-color: #9fc2cc !important;
-            color: black !important;
+            color: white !important;
         }
     }
     .dark-usafa{
         background-color: #9fc2cc !important;
-        color: black !important;
+        color: white !important;
         &:not(.disableHover):hover{
             background-color: #1b5299 !important;
             color: white !important;
