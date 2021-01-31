@@ -1,11 +1,11 @@
 Plugin that allows you to create folding and unfolding cards.
 
 The available classes are as follows:
-- .collapsible: Container class required to use this plugin. All elements must be children of this class.
-- .collapsible .title: Identify an item as the card title.
-- .content: It allows to identify the folding and unfolding element.
-- .collapsible .title.disableHover: Allows you to indicate that the background color of the title does not change color when hovering the mouse over the title.
-- .collapsible .content.disableHover: It allows you to indicate that the background color of the drop-down element does not change color when you put the mouse over the title.
+- **.collapsible**: Container class required to use this plugin. All elements must be children of this class.
+- **.collapsible .title**: Identify an item as the card title.
+- **.content**: It allows to identify the folding and unfolding element.
+- **.collapsible .title.disableHover**: Allows you to indicate that the background color of the title does not change color when hovering the mouse over the title.
+- **.collapsible .content.disableHover**: It allows you to indicate that the background color of the drop-down element does not change color when you put the mouse over the title.
 
 The classes that have associated background colors when the mouse is outside or above a title or a dropdown are the following:
 - .purple-grape
