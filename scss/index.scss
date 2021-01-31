@@ -1,0 +1,322 @@
+.collapsible{
+    .title{
+        padding: 20px 30px;
+        background-color: #777;
+        color: white;
+        border-radius: 15px 15px 0px 0px;
+        font-family: "Georgia", serif;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: background-color 0.1s linear, border-radius 0.2s linear;
+        &:hover{
+            background-color: #555;
+        }
+    }
+    .title::after{
+        content: "\002B";
+        float: right;
+    }
+    &.active .title::after{
+        content: "\2212";
+    }
+    .content{
+        padding: 0px 30px;
+        overflow: hidden;
+        max-height: 0px;
+        border-radius: 0px 0px 15px 15px;
+        background-color: #ddd;
+        font-family: "Georgia", serif;
+        font-size: 1.25rem;
+        transition: max-height 0.2s linear, padding 0.2s linear;
+    }
+    &:not(.active) .title{
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    /**********/
+    .purple-grape{
+        background-color: #63768d !important;
+        &:not(.disableHover):hover{
+            background-color: #554971 !important;
+        }
+    }
+    .grape-purple{
+        background-color: #554971 !important;
+        &:not(.disableHover):hover{
+            background-color: #63768d !important;
+        }
+    }
+    /**********/
+    /**********/
+    .burlywood-copper{
+        background-color: #dab785 !important;
+        &:not(.disableHover):hover{
+            background-color: #d5896f !important;
+        }
+    }
+    .copper-burlywood{
+        background-color: #d5896f !important;
+        &:not(.disableHover):hover{
+            background-color: #dab785 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .lavender-purple{
+        background-color: #70566d !important;
+        &:not(.disableHover):hover{
+            background-color: #42273b !important;
+        }
+    }
+    .purple-lavender{
+        background-color: #42273b !important;
+        &:not(.disableHover):hover{
+            background-color: #70566d !important;
+        }
+    }
+    /**********/
+    /**********/
+    .yonder-coral{
+        background-color: #577399 !important;
+        &:not(.disableHover):hover{
+            background-color: #495867 !important;
+        }
+    }
+    .coral-yonder{
+        background-color: #495867 !important;
+        &:not(.disableHover):hover{
+            background-color: #577399 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .gray-eggplant{
+        background-color: #726da8 !important;
+        &:not(.disableHover):hover{
+            background-color: #594157 !important;
+        }
+    }
+    .eggplant-gray{
+        background-color: #594157 !important;
+        &:not(.disableHover):hover{
+            background-color: #726da8 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .ming-black{
+        background-color: #2c666e !important;
+        &:not(.disableHover):hover{
+            background-color: #07393c !important;
+        }
+    }
+    .black-ming{
+        background-color: #07393c !important;
+        &:not(.disableHover):hover{
+            background-color: #2c666e !important;
+        }
+    }
+    /**********/
+    /**********/
+    .jasmine-saffron{
+        background-color: #f7d488 !important;
+        &:not(.disableHover):hover{
+            background-color: #f9a03f !important;
+        }
+    }
+    .saffron-jasmine{
+        background-color: #f9a03f !important;
+        &:not(.disableHover):hover{
+            background-color: #f7d488 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .horses-liver{
+        background-color: #503d3f !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #615756 !important;
+        }
+    }
+    .liver-horses{
+        background-color: #615756 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #503d3f !important;
+        }
+    }
+    /**********/
+    /**********/
+    .spanish-tickle{
+        background-color: #ffc0be !important;
+        color: black !important;
+        &:not(.disableHover):hover{
+            background-color: #ff82a9 !important;
+        }
+    }
+    .tickle-spanish{
+        background-color: #ff82a9 !important;
+        color: black !important;
+        &:not(.disableHover):hover{
+            background-color: #ffc0be !important;
+        }
+    }
+    /**********/
+    /**********/
+    .jeans-pewter{
+        background-color: #60b2e5 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #71a2b6 !important;
+        }
+    }
+    .pewter-jeans{
+        background-color: #71a2b6 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #60b2e5 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .oruby-web{
+        background-color: #982649 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #7c8483 !important;
+        }
+    }
+    .web-oruby{
+        background-color: #7c8483 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #982649 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .tyrian-ruby{
+        background-color: #5f0f40 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #9a031e !important;
+        }
+    }
+    .ruby-tyrian{
+        background-color: #9a031e !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #5f0f40 !important;
+        }
+    }
+    /**********/
+    /**********/
+    .dark-spanish{
+        background-color: #fb8b24 !important;
+        color: black !important;
+        &:not(.disableHover):hover{
+            background-color: #e36414 !important;
+            color: white !important;
+        }
+    }
+    .spanish-dark{
+        background-color: #e36414 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #fb8b24 !important;
+            color: black !important;
+        }
+    }
+    /**********/
+    /**********/
+    .dark-english{
+        background-color: #331832 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #694d75 !important;
+            color: white !important;
+        }
+    }
+    .english-dark{
+        background-color: #694d75 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #331832 !important;
+            color: white !important;
+        }
+    }
+    /**********/
+    /**********/
+    .usafa-dark{
+        background-color: #1b5299 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #9fc2cc !important;
+            color: black !important;
+        }
+    }
+    .dark-usafa{
+        background-color: #9fc2cc !important;
+        color: black !important;
+        &:not(.disableHover):hover{
+            background-color: #1b5299 !important;
+            color: white !important;
+        }
+    }
+    /**********/
+    /**********/
+    .mn-slate{
+        background-color: #36558f !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #40376e !important;
+            color: white !important;
+        }
+    }
+    .slate-mn{
+        background-color: #40376e !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #36558f !important;
+            color: white !important;
+        }
+    }
+    /**********/
+    /**********/
+    .dark-eminence{
+        background-color: #210b2c !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #55286f !important;
+            color: white !important;
+        }
+    }
+    .eminence-dark{
+        background-color: #55286f !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #210b2c !important;
+            color: white !important;
+        }
+    }
+    /**********/
+    /**********/
+    .chocolate-green{
+        background-color: #1d1e18 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #6b8f71 !important;
+            color: white !important;
+        }
+    }
+    .green-chocolate{
+        background-color: #6b8f71 !important;
+        color: white !important;
+        &:not(.disableHover):hover{
+            background-color: #1d1e18 !important;
+            color: white !important;
+        }
+    }
+    /**********/
+}

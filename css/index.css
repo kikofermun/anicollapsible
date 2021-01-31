@@ -1,0 +1,399 @@
+.collapsible {
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+  /**********/
+}
+
+.collapsible .title {
+  padding: 20px 30px;
+  background-color: #777;
+  color: white;
+  border-radius: 15px 15px 0px 0px;
+  font-family: "Georgia", serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.1s linear, border-radius 0.2s linear;
+}
+
+.collapsible .title:hover {
+  background-color: #555;
+}
+
+.collapsible .title::after {
+  content: "\002B";
+  float: right;
+}
+
+.collapsible.active .title::after {
+  content: "\2212";
+}
+
+.collapsible .content {
+  padding: 0px 30px;
+  overflow: hidden;
+  max-height: 0px;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #ddd;
+  font-family: "Georgia", serif;
+  font-size: 1.25rem;
+  transition: max-height 0.2s linear, padding 0.2s linear;
+}
+
+.collapsible:not(.active) .title {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.collapsible .purple-grape {
+  background-color: #63768d !important;
+}
+
+.collapsible .purple-grape:not(.disableHover):hover {
+  background-color: #554971 !important;
+}
+
+.collapsible .grape-purple {
+  background-color: #554971 !important;
+}
+
+.collapsible .grape-purple:not(.disableHover):hover {
+  background-color: #63768d !important;
+}
+
+.collapsible .burlywood-copper {
+  background-color: #dab785 !important;
+}
+
+.collapsible .burlywood-copper:not(.disableHover):hover {
+  background-color: #d5896f !important;
+}
+
+.collapsible .copper-burlywood {
+  background-color: #d5896f !important;
+}
+
+.collapsible .copper-burlywood:not(.disableHover):hover {
+  background-color: #dab785 !important;
+}
+
+.collapsible .lavender-purple {
+  background-color: #70566d !important;
+}
+
+.collapsible .lavender-purple:not(.disableHover):hover {
+  background-color: #42273b !important;
+}
+
+.collapsible .purple-lavender {
+  background-color: #42273b !important;
+}
+
+.collapsible .purple-lavender:not(.disableHover):hover {
+  background-color: #70566d !important;
+}
+
+.collapsible .yonder-coral {
+  background-color: #577399 !important;
+}
+
+.collapsible .yonder-coral:not(.disableHover):hover {
+  background-color: #495867 !important;
+}
+
+.collapsible .coral-yonder {
+  background-color: #495867 !important;
+}
+
+.collapsible .coral-yonder:not(.disableHover):hover {
+  background-color: #577399 !important;
+}
+
+.collapsible .gray-eggplant {
+  background-color: #726da8 !important;
+}
+
+.collapsible .gray-eggplant:not(.disableHover):hover {
+  background-color: #594157 !important;
+}
+
+.collapsible .eggplant-gray {
+  background-color: #594157 !important;
+}
+
+.collapsible .eggplant-gray:not(.disableHover):hover {
+  background-color: #726da8 !important;
+}
+
+.collapsible .ming-black {
+  background-color: #2c666e !important;
+}
+
+.collapsible .ming-black:not(.disableHover):hover {
+  background-color: #07393c !important;
+}
+
+.collapsible .black-ming {
+  background-color: #07393c !important;
+}
+
+.collapsible .black-ming:not(.disableHover):hover {
+  background-color: #2c666e !important;
+}
+
+.collapsible .jasmine-saffron {
+  background-color: #f7d488 !important;
+}
+
+.collapsible .jasmine-saffron:not(.disableHover):hover {
+  background-color: #f9a03f !important;
+}
+
+.collapsible .saffron-jasmine {
+  background-color: #f9a03f !important;
+}
+
+.collapsible .saffron-jasmine:not(.disableHover):hover {
+  background-color: #f7d488 !important;
+}
+
+.collapsible .horses-liver {
+  background-color: #503d3f !important;
+  color: white !important;
+}
+
+.collapsible .horses-liver:not(.disableHover):hover {
+  background-color: #615756 !important;
+}
+
+.collapsible .liver-horses {
+  background-color: #615756 !important;
+  color: white !important;
+}
+
+.collapsible .liver-horses:not(.disableHover):hover {
+  background-color: #503d3f !important;
+}
+
+.collapsible .spanish-tickle {
+  background-color: #ffc0be !important;
+  color: black !important;
+}
+
+.collapsible .spanish-tickle:not(.disableHover):hover {
+  background-color: #ff82a9 !important;
+}
+
+.collapsible .tickle-spanish {
+  background-color: #ff82a9 !important;
+  color: black !important;
+}
+
+.collapsible .tickle-spanish:not(.disableHover):hover {
+  background-color: #ffc0be !important;
+}
+
+.collapsible .jeans-pewter {
+  background-color: #60b2e5 !important;
+  color: white !important;
+}
+
+.collapsible .jeans-pewter:not(.disableHover):hover {
+  background-color: #71a2b6 !important;
+}
+
+.collapsible .pewter-jeans {
+  background-color: #71a2b6 !important;
+  color: white !important;
+}
+
+.collapsible .pewter-jeans:not(.disableHover):hover {
+  background-color: #60b2e5 !important;
+}
+
+.collapsible .oruby-web {
+  background-color: #982649 !important;
+  color: white !important;
+}
+
+.collapsible .oruby-web:not(.disableHover):hover {
+  background-color: #7c8483 !important;
+}
+
+.collapsible .web-oruby {
+  background-color: #7c8483 !important;
+  color: white !important;
+}
+
+.collapsible .web-oruby:not(.disableHover):hover {
+  background-color: #982649 !important;
+}
+
+.collapsible .tyrian-ruby {
+  background-color: #5f0f40 !important;
+  color: white !important;
+}
+
+.collapsible .tyrian-ruby:not(.disableHover):hover {
+  background-color: #9a031e !important;
+}
+
+.collapsible .ruby-tyrian {
+  background-color: #9a031e !important;
+  color: white !important;
+}
+
+.collapsible .ruby-tyrian:not(.disableHover):hover {
+  background-color: #5f0f40 !important;
+}
+
+.collapsible .dark-spanish {
+  background-color: #fb8b24 !important;
+  color: black !important;
+}
+
+.collapsible .dark-spanish:not(.disableHover):hover {
+  background-color: #e36414 !important;
+  color: white !important;
+}
+
+.collapsible .spanish-dark {
+  background-color: #e36414 !important;
+  color: white !important;
+}
+
+.collapsible .spanish-dark:not(.disableHover):hover {
+  background-color: #fb8b24 !important;
+  color: black !important;
+}
+
+.collapsible .dark-english {
+  background-color: #331832 !important;
+  color: white !important;
+}
+
+.collapsible .dark-english:not(.disableHover):hover {
+  background-color: #694d75 !important;
+  color: white !important;
+}
+
+.collapsible .english-dark {
+  background-color: #694d75 !important;
+  color: white !important;
+}
+
+.collapsible .english-dark:not(.disableHover):hover {
+  background-color: #331832 !important;
+  color: white !important;
+}
+
+.collapsible .usafa-dark {
+  background-color: #1b5299 !important;
+  color: white !important;
+}
+
+.collapsible .usafa-dark:not(.disableHover):hover {
+  background-color: #9fc2cc !important;
+  color: black !important;
+}
+
+.collapsible .dark-usafa {
+  background-color: #9fc2cc !important;
+  color: black !important;
+}
+
+.collapsible .dark-usafa:not(.disableHover):hover {
+  background-color: #1b5299 !important;
+  color: white !important;
+}
+
+.collapsible .mn-slate {
+  background-color: #36558f !important;
+  color: white !important;
+}
+
+.collapsible .mn-slate:not(.disableHover):hover {
+  background-color: #40376e !important;
+  color: white !important;
+}
+
+.collapsible .slate-mn {
+  background-color: #40376e !important;
+  color: white !important;
+}
+
+.collapsible .slate-mn:not(.disableHover):hover {
+  background-color: #36558f !important;
+  color: white !important;
+}
+
+.collapsible .dark-eminence {
+  background-color: #210b2c !important;
+  color: white !important;
+}
+
+.collapsible .dark-eminence:not(.disableHover):hover {
+  background-color: #55286f !important;
+  color: white !important;
+}
+
+.collapsible .eminence-dark {
+  background-color: #55286f !important;
+  color: white !important;
+}
+
+.collapsible .eminence-dark:not(.disableHover):hover {
+  background-color: #210b2c !important;
+  color: white !important;
+}
+
+.collapsible .chocolate-green {
+  background-color: #1d1e18 !important;
+  color: white !important;
+}
+
+.collapsible .chocolate-green:not(.disableHover):hover {
+  background-color: #6b8f71 !important;
+  color: white !important;
+}
+
+.collapsible .green-chocolate {
+  background-color: #6b8f71 !important;
+  color: white !important;
+}
+
+.collapsible .green-chocolate:not(.disableHover):hover {
+  background-color: #1d1e18 !important;
+  color: white !important;
+}
